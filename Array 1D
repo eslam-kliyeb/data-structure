@@ -1,4 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
+
+```cpp
 #include<bits/stdc++.h>
 #define endl "\n"
 #define pi 3.141592
@@ -21,3 +23,4 @@ int main() {
     
     return 0;
 }
+```cpp
