@@ -19,7 +19,6 @@ int main() {
     //freopen("", "r", stdin);
     //-------------------------------------------------------------------------------------
     int arr[50]; // Declaration , Initialization
-    // 10 is size
     // noot the size can change in  Declaration just
     int size;
     cin >> size;
