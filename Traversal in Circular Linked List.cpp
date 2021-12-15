@@ -45,11 +45,11 @@ void display_t() {
     struct node* ptr;
     ptr = tail->next;
     struct node* pt=tail;
-    cout << pt->data << " ";
     while (ptr != tail) {
         cout << ptr->data << " ";
         ptr = ptr->next;
     }
+    cout << pt->data << " ";
 }
 //-----------------------------------------------------------------------------------------
 //arr or vec
