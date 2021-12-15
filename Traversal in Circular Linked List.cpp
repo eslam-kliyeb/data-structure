@@ -34,6 +34,8 @@ void Traversal(int new_data) {
 void display_h() {
     struct node* ptr;
     ptr = head->next;
+    struct node* pt=head;
+    cout << pt->data << " ";
     while (ptr != head ) {
         cout << ptr->data << " ";
         ptr = ptr->next;
@@ -42,6 +44,8 @@ void display_h() {
 void display_t() {
     struct node* ptr;
     ptr = tail->next;
+    struct node* pt=tail;
+    cout << pt->data << " ";
     while (ptr != tail) {
         cout << ptr->data << " ";
         ptr = ptr->next;
