@@ -42,7 +42,7 @@ void display_h() {
 void display_t() {
     struct node* ptr;
     ptr = tail->next;
-    while (ptr->next != tail) {
+    while (ptr != tail) {
         cout << ptr->data << " ";
         ptr = ptr->next;
     }
